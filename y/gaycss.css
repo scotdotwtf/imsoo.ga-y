@@ -1,0 +1,111 @@
+.normal-text {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(26, 26, 26);
+}
+
+.center-text {
+    text-align: center;
+    padding: 10px;
+}
+
+hr {
+    height: 2px;
+    background-color: rgb(207, 207, 207);
+    border: none;
+}
+
+#content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+#cats-content {
+    position: absolute;
+    top: 275%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#news-content {
+    position: absolute;
+    left: 50%;
+    top: 130px;
+    transform: translate(-50% , 0%)
+}
+  
+#topbar{
+    /* topbar color */
+    position:fixed;
+    background: linear-gradient(90deg,#348ac7,#7474bf);
+    border-bottom: 1px solid hsla(0,0%,100%,.1);
+
+    /* make topbar fixed pos */
+    top:0;
+    left:0;
+    width:100%;
+    height:60px;
+
+    /* center content */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* stay on top */
+    z-index: 10;
+}
+
+#mini-topbar{
+    /* topbar color */
+    position:fixed;
+    background: linear-gradient(90deg, rgba(44,116,170,1) 0%, rgba(93,99,152,1) 100%);
+    border-bottom: 1px solid hsla(0,0%,100%,.1);
+
+    /* make topbar fixed pos */
+    top:61px;
+    left:0;
+    width:100%;
+    height:50px;
+
+    /* center content */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#tbar-text {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 8px;
+    font-size: 14px;
+}
+
+#s-tbar-text {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 8px;
+    font-size: 1rem;
+}
+
+#tbar-text:hover {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+#btn-txt {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(94, 94, 94);
+    background-color: rgba(26, 26, 36, 0.15);
+    text-decoration: none;
+    padding: 8px;
+    font-size: 20px;
+    text-align: center;
+}
